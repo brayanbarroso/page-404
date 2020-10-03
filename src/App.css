@@ -1,0 +1,31 @@
+/* -----btn-------- */
+.btn {
+  height: 70px;
+  margin: 64px 0 0 24px;
+}
+
+.btn a {
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 24px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn a:hover {
+  background-color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+  }
+}
