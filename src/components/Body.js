@@ -1,11 +1,12 @@
 import React from "react";
 import "./css/Body.css";
+import image from "./img/Scarecrow.png";
 
 const Body = () => {
   return (
     <section>
       <div className="contain-img">
-        <img src="img/Scarecrow.png" />
+        <img src={image} alt="Imagen" />
       </div>
       <div className="text-description">
         <h1>I have bad news for you</h1>

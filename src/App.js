@@ -10,7 +10,9 @@ function App() {
       <Header />
       <Body />
       <div className="btn">
-        <a href="#">Back to homepage</a>
+        <a href="http://localhost:3000/brayanbarroso/page-404">
+          Back to homepage
+        </a>
       </div>
       <Footer />
     </Fragment>
